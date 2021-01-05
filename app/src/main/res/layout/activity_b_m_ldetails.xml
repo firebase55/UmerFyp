@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/sScreen"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BMLdetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bmi"
+        android:layout_height="150dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="200dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Your BMI is"
+            android:layout_height="40dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="70dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bmi_color"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Your Model Data for BMI"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="80dp"
+    android:textStyle="bold"
+    android:textSize="16dp"
+    android:textColor="#fff"
+    android:id="@+id/move"
+    android:background="@drawable/buttton_design"
+    android:onClick="move"
+    android:text="Next"
+    android:layout_marginRight="80dp"
+    android:layout_marginLeft="80dp"
+    android:layout_height="40dp">
+
+</Button>
+    </LinearLayout>
+
+</LinearLayout>
